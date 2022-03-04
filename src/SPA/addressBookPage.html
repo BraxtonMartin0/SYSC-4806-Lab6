@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+    <title>Address Book Creation</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script src="/addressBuddy.js"></script>
+</head>
+<body>
+    <table id="buddies">
+      <tr>
+         <th>Name</th>
+         <th>Address</th>
+         <th>Phone Number</th>
+     </tr>
+    </table>
+
+    <form id="addBuddyForm">
+        Name: <input type="text" id="bName"> <br>
+        Address: <input type="text" id="bAddress"> <br>
+        Phone Number: <input type="text" id="bPhoneNumber"> <br>
+        ID: <input type="text" id="bID"> <br>
+        <button type="button" id="submit">Add new buddy</button>
+    </form>
+
+</body>
+</html>
